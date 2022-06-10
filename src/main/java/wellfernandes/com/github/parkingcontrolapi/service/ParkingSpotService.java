@@ -23,4 +23,17 @@ public class ParkingSpotService {
 	public ParkingSpotRepository getParkingSpotRepository() {
 		return parkingSpotRepository;
 	}
+
+	public boolean existsByLicensePlateCar(String licensePlateCar) {
+		
+		return parkingSpotRepository.existsByLicensePlateCar(licensePlateCar);
+	}
+
+	public boolean existsByParkingSpotNumber(String parkingSpotNumber) {
+		return parkingSpotRepository.existsByParkingSpotNumber(parkingSpotNumber);
+	}
+
+	public boolean existsByApartmentAndBlock(String apartment, String block) {
+		return parkingSpotRepository.existsByApartmentAndBlock(apartment, block);
+	}
 }
