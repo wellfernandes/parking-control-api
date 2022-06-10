@@ -23,10 +23,10 @@ import wellfernandes.com.github.parkingcontrolapi.service.ParkingSpotService;
 @RequestMapping("/parking-spot")
 public class ParkingSpotController {
 
-	final ParkingSpotService parkingSportService;
+	final ParkingSpotService parkingSpotService;
 
-	public ParkingSpotController(ParkingSpotService parkingSportService) {
-		this.parkingSportService = parkingSportService;
+	public ParkingSpotController(ParkingSpotService parkingSpotService) {
+		this.parkingSpotService = parkingSpotService;
 	}
 
 	@PostMapping
