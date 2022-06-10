@@ -1,5 +1,7 @@
 package wellfernandes.com.github.parkingcontrolapi.service;
 
+import java.util.List;
+
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -25,7 +27,7 @@ public class ParkingSpotService {
 	}
 
 	public boolean existsByLicensePlateCar(String licensePlateCar) {
-		
+
 		return parkingSpotRepository.existsByLicensePlateCar(licensePlateCar);
 	}
 
@@ -35,5 +37,9 @@ public class ParkingSpotService {
 
 	public boolean existsByApartmentAndBlock(String apartment, String block) {
 		return parkingSpotRepository.existsByApartmentAndBlock(apartment, block);
+	}
+
+	public List<ParkingSpotModel> findAll() {
+		return parkingSpotRepository.findAll();
 	}
 }
