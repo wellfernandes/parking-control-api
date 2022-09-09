@@ -1,6 +1,11 @@
-# parking-control-api 
-Parking Control API, is an simple api-rest.
+# Parking Control API 
 
-## description
-<p align="center">Parking Control API, is an simple api-rest to control parking spaces with operations of search, insertion, update and deletion in PostgreSQL database.
-The technologies used in the development were the Java, Maven, Spring Boot, Spring Data and PostgreSQL database.</p>
+Api-rest que disponibiliza endpoints para controle de vagas de estacionamento. 
+
+## 🚀 Descrição
+
+Parking Control API é uma api-rest simples para controlar vagas de estacionamento com operações de busca, inserção, atualização e exclusão no banco de dados PostgreSQL. As tecnologias utilizadas no desenvolvimento foram o Java, Maven, Spring Boot, Spring Data e o banco de dados PostgreSQL.
+
+
+---
+[Linkedin](https://www.linkedin.com/in/wellitonfernandes/) 😊
